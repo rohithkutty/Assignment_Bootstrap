@@ -1,0 +1,184 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Rohith
+Notes:	 Tara | Visual Effects Studio
+
+*/
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+	font-size: 14px;
+	font-family:OpenSans,sans-serif;
+}
+
+.confetti_logo{
+	
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+
+/*.navbar{
+	background: black;
+}*/
+
+.page-scroll{
+	font-size: 1.5em;
+	font-weight: 400;
+	font-variant: small-caps;
+}
+
+#logo{
+	vertical-align: middle;
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+	height: 35px;
+}
+
+nav li{
+ 	display: inline;
+}
+
+
+.navbar-inverse .navbar-toggle{
+	background-color: orange;
+	border-color: orange;
+}
+.navbar-brand{
+ 	padding: 0;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+/*.item{
+	height: 750px;
+}*/
+
+.carousel-inner img{
+	min-width: 100%;
+	height: inherit;
+}
+
+.first-slide {
+	height: inherit !important;
+}
+
+.second-slide{
+	height: inherit !important;
+}
+
+.third-slide{
+	height: inherit !important;
+}
+
+.carousel-inner{
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well .page-header{
+	margin-top: 0;
+}
+
+.marketing{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.content_title{
+	text-align: center;
+	margin: 25px 0px;
+}
+
+.studio img{
+	width: 100%;
+}
+
+.studio h2{
+	text-align: center;
+}
+
+.studio p{
+	text-align: center;
+}
+
+.featurette-heading{
+	text-align: center;
+}
+
+#lead{
+	text-align: left;
+}
+
+.unstyled{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.row{
+	margin-right: 0;
+	margin-left: 0;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+	#myCarousel .item { height: 310px; }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+	#myCarousel .item { height: 500px; }
+
+
+	.carousel-caption p {
+		font-size: 16px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 22px;
+	}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myCarousel .item { height: 800px; }
+
+
+}
